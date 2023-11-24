@@ -27,8 +27,9 @@ const OrganizationSchema = Schema({
     technologyLine: { type: String, enum: technologyLineEnum  },
     technologySubLine: { type: String, enum: technologySubLineEnum  },
     webSite: { type: String  },
+    oficialSocialNetwork : {type : String},
     socialNetworkName: { type: String },
-    socialNetworkUserName: { type: String  },
+    linkedin: { type: String  },
     observations: { type: String  }
 })
 

@@ -3,7 +3,7 @@ import { viewOportunity,
     getAllOportunitys,
     deleteOportunity,
     createOportunity,
-    updateOportunity 
+    updateOportunity
 } from "../controllers/OportunityController.js";
 
 const OPORTUNITY_ROUTES = EXPRESS.Router()
